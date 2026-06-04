@@ -3,12 +3,13 @@ import React from 'react'
 
 const projects = [
     {
+    
       id: 1,
-      title: 'E-commerce Platform',
-      description: 'A modern e-commerce electronics store built with React, featuring a clean UI, product listings, and a responsive layout for a smooth shopping experience.',
+      title: 'Apartment Website',
+      description: 'A responsive website built for a shortlet apartment business, featuring property listings, booking information, and a clean layout designed to attract and convert potential guests.',
       image: '/projects/project1.png',
       tags: ['React', 'CSS', 'JavaScript'],
-      demoUrl: 'https://dagadgets-ecommerce.vercel.app/',
+      demoUrl: 'https://www.wisdomcityhomes.com/',
       githubUrl: '#',
     },
 
@@ -21,17 +22,17 @@ const projects = [
       demoUrl: 'https://vibrationdynamicstech.com/',
       githubUrl: '#',
     },
-
     {
       id: 3,
-      title: 'Chef Claude API Generator',
-      description: 'A React-based Chef Claude API Generator that allows users to quickly generate structured recipe data and API responses through a clean, interactive interface.',
+      title: 'E-commerce Platform',
+      description: 'A modern e-commerce electronics store built with React, featuring a clean UI, product listings, and a responsive layout for a smooth shopping experience.',
       image: '/projects/project3.png',
       tags: ['React', 'CSS', 'JavaScript'],
-      demoUrl: 'https://chef-claude-recipe-ai-1w6d.vercel.app/',
+      demoUrl: 'https://dagadgets-ecommerce.vercel.app/',
       githubUrl: '#',
+    },
+
     
-    }
 ]
 
 const ProjectsSection = () => {
